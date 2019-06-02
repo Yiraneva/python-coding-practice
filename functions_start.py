@@ -15,13 +15,21 @@ def cube(x):
     return(x*x*x)
 
 # function with default value for an argument
+def power(num, x=1):
+    result=1
+    for x in range(x):
+        result=result * num
+    return result
 
+print(power(2))
+print(power(2,3))
 
 #function with variable number of arguments
 def multiAdd(*arguments):
     result=1 # 赋值？
     for x in arguments:
         result=result + x
+
     return result
 
 
