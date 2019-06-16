@@ -52,8 +52,6 @@ class Animal(object):
 
 pig = Animal('Pig')
 # pig.makeAll()
-pig.whoamI()
 
 duck = Animal('Duck')
 # duck.makeAll()
-duck.whoamI()
