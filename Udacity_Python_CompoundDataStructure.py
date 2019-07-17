@@ -12,13 +12,21 @@ elements = {'hydrogen': {'number': 1, 'weight': 1.00794, 'symbol': 'H'},
 # todo: Add an 'is_noble_gas' entry to the hydrogen and helium dictionaries
 # hint: helium is a noble gas, hydrogen isn't
 
-hydrogen=elements['hydrogen']
-hydrogen.update({'is_noble_gas': False})
+# hydrogen=elements['hydrogen']
+# hydrogen.update({'is_noble_gas': False})
 
-helium=elements['helium']
-helium.update({'is_noble_gas': True})
+# helium=elements['helium']
+# helium.update({'is_noble_gas': True})
 
+# print(elements)
+
+# print(elements['hydrogen']['is_noble_gas'])
+# print(elements['helium']['is_noble_gas'])
+
+elements['hydrogen']['is_noble_gas'] = False
+elements['helium']['is_noble_gas'] = True
+
+elements['oxgen'] = {"a":1,'b': 2}
+# x=elements['hydrogen']['is_noble_gas']
+# print(x)
 print(elements)
-
-print(elements['hydrogen']['is_noble_gas'])
-print(elements['helium']['is_noble_gas'])
