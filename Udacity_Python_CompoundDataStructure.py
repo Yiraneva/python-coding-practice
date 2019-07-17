@@ -27,6 +27,7 @@ elements['hydrogen']['is_noble_gas'] = False
 elements['helium']['is_noble_gas'] = True
 
 elements['oxgen'] = {"a":1,'b': 2}
-# x=elements['hydrogen']['is_noble_gas']
+# x=elements['hydrogen']\
+
 # print(x)
 print(elements)
