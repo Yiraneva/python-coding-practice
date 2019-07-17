@@ -35,4 +35,8 @@ sorted_keys = sorted(list(verse_dict))
 # get the first element in the sorted list of keys
 print(sorted_keys[0])
 
+# find the element with the highest value in the list of keys
+#wrong answer below
 print(max(verse_dict, key=verse_dict.get))
+# Correct answer below (string value 'a' lowest 'z' highest)
+print(sorted_keys[-1]) 
