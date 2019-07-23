@@ -20,4 +20,12 @@ for name in names:
     
 print(usernames)
     
+names = ["Joey Tribbiani", "Monica Geller", "Chandler Bing", "Phoebe Buffay"]
+username = []
+
+for name in names:
+    name = name.lower().replace(" ", "_")
+
+print(names)
+
 
