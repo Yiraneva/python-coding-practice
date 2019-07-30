@@ -11,8 +11,9 @@ usernames = ["Joey Tribbiani", "Monica Geller", "Chandler Bing", "Phoebe Buffay"
 for index in range(0,4): #此处参考答案： for i in range(len(usernames))  避免使用 magic number(0, 4)
     usernames[index] = usernames[index].replace(' ', '_').lower()
     
-
 print(usernames)
+
+
 
 #倒数第二题：for loop 里套 if statement
 # string is also a list！
